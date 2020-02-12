@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace Katas
 {
-    public class Kata
+    public class PigLatin
     {
         public static string PigIt(string str)
         {
@@ -54,8 +54,8 @@ namespace Katas
         [Test]
         public void KataTests()
         {
-            Assert.AreEqual("igPay atinlay siay oolcay", Kata.PigIt("Pig latin is cool"));
-            Assert.AreEqual("hisTay siay ymay tringsay", Kata.PigIt("This is my string"));
+            Assert.AreEqual("igPay atinlay siay oolcay", PigLatin.PigIt("Pig latin is cool"));
+            Assert.AreEqual("hisTay siay ymay tringsay", PigLatin.PigIt("This is my string"));
         }
     }
 }
