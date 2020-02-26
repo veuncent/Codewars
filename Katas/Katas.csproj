@@ -63,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplitString.cs" />
     <Compile Include="SumStringAsNumbers.cs" />
+    <Compile Include="TwoOldestAges.cs" />
     <Compile Include="VowelCount.cs" />
   </ItemGroup>
   <ItemGroup>
